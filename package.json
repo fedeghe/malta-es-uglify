@@ -1,0 +1,29 @@
+{
+  "name": "malta-es-uglify",
+  "version": "1.0.0",
+  "description": "MAlta plugin to uglify es6",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedeghe/malta-es-uglify.git"
+  },
+  "keywords": [
+    "malta",
+    "malta plugin",
+    "malta uglify es6",
+    "malta uglify es6 plugin"
+  ],
+  "author": "Federico Ghedina <federico.ghedina@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedeghe/malta-es-uglify/issues"
+  },
+  "homepage": "https://github.com/fedeghe/malta-es-uglify#readme",
+  "main": "index.js",
+  "dependencies": {
+    "malta": "^3.6.16",
+    "uglify-es": "^3.1.2"
+  }
+}
