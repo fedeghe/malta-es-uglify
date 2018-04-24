@@ -1,6 +1,6 @@
 {
   "name": "malta-es-uglify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MAlta plugin to uglify es6",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/fedeghe/malta-es-uglify#readme",
   "main": "index.js",
   "dependencies": {
-    "malta": "^3.6.16",
+    "malta": ">=3.8.3",
     "uglify-es": "^3.1.2"
   }
 }
