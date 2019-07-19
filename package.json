@@ -1,6 +1,6 @@
 {
     "name": "malta-es-uglify",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "MAlta plugin to uglify es6",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
