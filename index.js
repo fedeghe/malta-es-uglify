@@ -1,15 +1,14 @@
-require('malta').checkDeps('uglify-es');
-
-var uglify_es = require("uglify-es"),
+const uglify_es = require("uglify-es"),
     path = require('path'),
     fs = require('fs');
 
 function malta_es_uglify(o, options) {
 
-    var self = this,
+    const self = this,
         start = new Date(),
-        msg,
         pluginName = path.basename(path.dirname(__filename));
+
+    let msg;
 
     options = options || {};
     options.fromString = true;
@@ -20,8 +19,8 @@ function malta_es_uglify(o, options) {
         self.doErr(err, o, pluginName);
     }
 
-    return function (solve, reject) {
-        fs.writeFile(o.name, o.content, function (err) {
+    return (solve, reject) => {
+        fs.writeFile(o.name, o.content, err => {
             err && self.doErr(err, o, pluginName);
             msg = 'plugin ' + pluginName.white() + ' wrote ' + o.name + ' (' + self.getSize(o.name) + ')';
             err

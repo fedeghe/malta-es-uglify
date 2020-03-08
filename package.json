@@ -23,7 +23,6 @@
     "homepage": "https://github.com/fedeghe/malta-es-uglify#readme",
     "main": "index.js",
     "dependencies": {
-        "malta": "^4.0.4",
         "uglify-es": "^3.3.9"
     }
 }

@@ -1,6 +1,5 @@
 ---
 [![npm version](https://badge.fury.io/js/malta-es-uglify.svg)](http://badge.fury.io/js/malta-es-uglify)
-[![Dependencies](https://david-dm.org/fedeghe/malta-es-uglify.svg)](https://david-dm.org/fedeghe/malta-es-uglify)
 [![npm downloads](https://img.shields.io/npm/dt/malta-es-uglify.svg)](https://npmjs.org/package/malta-es-uglify)
 [![npm downloads](https://img.shields.io/npm/dm/malta-es-uglify.svg)](https://npmjs.org/package/malta-es-uglify)  
 ---  
